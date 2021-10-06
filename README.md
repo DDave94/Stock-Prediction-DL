@@ -8,10 +8,10 @@ This repository contains the following:
 
 * datasets
     * raw 
-        * Contains raw extracted tweets for each year from 2017 to 2020 for Microsoft and Twitter
+        * Contains raw extracted tweets for each year from 2017 to 2020 for Microsoft and Tesla
     * msft-tweet-sentiments-lstm.csv
         * Contans the daily aggregate sentiment scores after classifying each Microsft tweet using the sentiment analysis model
-    * msft-tweet-sentiments-lstm.csv
+    * tsla-tweet-sentiments-lstm.csv
         * Contans the daily aggregate sentiment scores after classifying each Tesla tweet using the sentiment analysis model
 
 * src
@@ -20,7 +20,7 @@ This repository contains the following:
     * Sentiment Analysis Model 
         * Source code for bidirectional LSTM model used to generate generate sentiment scores for tweets from Microsoft and Tesla
         * This model was trained using the Sentiment140 training dataset created by created by Alec Go, Richa Bhayani, and Lei Huang, who were Computer Science graduate students at Stanford University. (Link to site here: http://help.sentiment140.com/home)
-    * Tesla Model 
+    * Tesla Models
         * Source code for LSTM, RNN, and GRU models which predict the Tesla stock signals for a given trading day 
     * Twitter Scraping 
         * Source code for scraping twitter using snscrape library's twitter scraper module (Link to creator's repo here: https://github.com/JustAnotherArchivist/snscrape)
